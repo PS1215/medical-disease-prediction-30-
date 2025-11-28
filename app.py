@@ -1,3 +1,6 @@
+import os
+st.write("Current directory files:", os.listdir())
+
 import streamlit as st
 import pickle
 import numpy as np
