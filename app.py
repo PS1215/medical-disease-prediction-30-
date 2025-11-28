@@ -5,7 +5,6 @@ import streamlit as st
 import pickle
 import numpy as np
 
-st.write("Current directory files:", os.listdir())
 
 # Load model and data
 model = pickle.load(open("model.pkl", "rb"))
